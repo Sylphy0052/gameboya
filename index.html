@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=320px">
+    <title>ゲームボーイ</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div id="hard">
+   <div class="switch" id="off">
+      off
+    </div>
+
+    <div class="switch" id="on">
+      on
+    </div>
+
+   <div id="gamen" class="screen">
+<!--    <header></header>
+    <div id="left"></div>
+    <div id="right"></div>-->
+    <h1 id="gameboy"> GAME BOY</h1>
+    <h2 id="Nintendo">Furuhashi&copy</h2>
+<!--    <footer></footer>-->
+  </div>
+
+  <div id="gamen-pokemon" class="screen">
+  </div>
+
+  <div id="gamenSelectA" class="screen">
+    <div class="screenSelect">
+      <li>何をしますか？</li>
+      <li>▶ブロック崩し</li>
+      <li>　ポケモン赤</li>
+    </div>
+  </div>
+
+  <div id="gamenSelectB" class="screen">
+    <div class="screenSelect">
+      <li>何をしますか？</li>
+      <li>　ブロック崩し</li>
+      <li>▶ポケモン赤</li>
+    </div>
+  </div>
+
+
+  <div id="blank"></div>
+
+  <div id="control">
+    <table id="BtnAB">
+          <tr id="BtnAA">
+           <th></th>
+           <th id="BtnA">A</th>
+          </tr>
+          <tr id="BtnBB">
+            <th id="BtnB">B</th>
+            <th></th>
+          </tr>
+    </table>
+
+    <table id="key">
+      <tr>
+        <th></th>
+        <th id="keyUp" class="keyC">↑</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th id="keyLeft" class="keyC">←</th>
+        <th class="keyC"></th>
+        <th id="keyRight" class="keyC">→</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th id="keyDown" class="keyC">↓</th>
+        <th></th>
+      </tr>
+    </table>
+
+    <table id="startSelect">
+      <tr>
+        <th id="select">select</th>
+        <th></th>
+        <th id="start">start</th>
+      </tr>
+    </table>
+  </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="gameBoyJS.js"></script>
+
+  </body>
+</html>
